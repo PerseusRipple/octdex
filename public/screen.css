@@ -84,5 +84,7 @@ figcaption img {
 	position: relative;
 }
 
-.author {
+figcaption img {
+	margin: 5px 0;
+	color: #cacaca;
 }
