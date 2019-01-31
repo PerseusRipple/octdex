@@ -17,20 +17,27 @@ body {
 /* Header */
 
 header {
-	background-color: rgb(81, 149, 216);
+	width: 100%;
+	background-color: #f3f3f3;
 	margin: 2rem;
 	display: flex;
 	justify-content: space-between;
 }
 
 .logo {
-	width: 33%;
+	height: 1.5rem;
+	padding: 2rem;
 }
 
 .top-nav {
 	display: flex;
 	list-style: none;
 	align-items: center;
+	font-weight: bold;
+}
+
+.top-list:hover {
+	color: hotpink;
 }
 
 .top-list {
@@ -41,7 +48,9 @@ header {
 
 main {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	align-content: flex-start;
+	flex-wrap: wrap;
 }
 
 figure {
@@ -49,10 +58,31 @@ figure {
 	border-bottom: 0.05em solid black;
 }
 
-figurecaption {
+figcaption {
+	display: flex;
+	justify-content: space-between;
 	border: 0.05em solid black;
 }
 
-.octo-image {
+.oct-image {
 	border: 0.05em solid black;
+	width: 90%;
+	padding: 1rem;
+}
+
+figcaption img {
+	display: flex;
+	justify-content: space-between;
+	width: 10%;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+	text-align: right;
+	padding: 12px 0 12px 0;
+	margin: 0 12px 22px;
+	border-bottom: 1px solid #cacaca;
+	position: relative;
+}
+
+.author {
 }
